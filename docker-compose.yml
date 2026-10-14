@@ -1,0 +1,18 @@
+services:
+  marginalia:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      DATA_DIR: /data
+      SEED_DIR: /app/sample_docs
+    volumes:
+      - marginalia-data:/data
+    restart: unless-stopped
+
+volumes:
+  marginalia-data:

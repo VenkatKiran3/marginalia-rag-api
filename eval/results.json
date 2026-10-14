@@ -1,0 +1,249 @@
+{
+  "llm_model": "gemini-3.5-flash-lite",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "top_k": 8,
+  "min_relevance": 0.5,
+  "rows": [
+    {
+      "id": "A1",
+      "category": "answerable",
+      "question": "How heavy is the Aero X2?",
+      "top_score": 0.752,
+      "retrieval_recall": 1.0,
+      "gated": false,
+      "status": "answered",
+      "status_ok": true,
+      "fact_recall": 1.0,
+      "citation_recall": 1.0,
+      "quotes_verified": "1/1",
+      "answer": "The complete Velora Aero X2 bike weighs 21.4 kg including the battery [1].",
+      "missing": "",
+      "sources": [
+        "aero_x2_spec_sheet.pdf"
+      ],
+      "latency_ms": 1260
+    },
+    {
+      "id": "A2",
+      "category": "answerable",
+      "question": "How many vacation days do full-time employees get?",
+      "top_score": 0.861,
+      "retrieval_recall": 1.0,
+      "gated": false,
+      "status": "answered",
+      "status_ok": true,
+      "fact_recall": 1.0,
+      "citation_recall": 1.0,
+      "quotes_verified": "1/1",
+      "answer": "Full-time employees receive 25 vacation days per year, in addition to Dutch public holidays [1].",
+      "missing": "",
+      "sources": [
+        "employee_handbook.md"
+      ],
+      "latency_ms": 1212
+    },
+    {
+      "id": "A3",
+      "category": "answerable",
+      "question": "Can I send my bike back if I've already ridden it 80 km?",
+      "top_score": 0.747,
+      "retrieval_recall": 1.0,
+      "gated": false,
+      "status": "answered",
+      "status_ok": true,
+      "fact_recall": 1.0,
+      "citation_recall": 1.0,
+      "quotes_verified": "1/1",
+      "answer": "Yes, you can still return your bike within 30 days if you have ridden it more than 50 km (such as 80 km), but a 10% restocking fee applies [1].",
+      "missing": "",
+      "sources": [
+        "warranty_and_returns.txt"
+      ],
+      "latency_ms": 1219
+    },
+    {
+      "id": "A4",
+      "category": "answerable",
+      "question": "At what charge level does battery-saver mode switch on now?",
+      "top_score": 0.752,
+      "retrieval_recall": 1.0,
+      "gated": false,
+      "status": "answered",
+      "status_ok": true,
+      "fact_recall": 1.0,
+      "citation_recall": 1.0,
+      "quotes_verified": "1/1",
+      "answer": "Battery-saver mode now activates automatically at 15% charge.",
+      "missing": "",
+      "sources": [
+        "firmware_release_notes.md"
+      ],
+      "latency_ms": 1058
+    },
+    {
+      "id": "A5",
+      "category": "answerable",
+      "question": "Is it safe to clean the bike with a pressure washer?",
+      "top_score": 0.578,
+      "retrieval_recall": 1.0,
+      "gated": false,
+      "status": "answered",
+      "status_ok": true,
+      "fact_recall": 1.0,
+      "citation_recall": 1.0,
+      "quotes_verified": "1/1",
+      "answer": "No, it is not safe to clean the bike with a pressure washer; the motor, battery, and display must not be cleaned with a pressure washer.",
+      "missing": "",
+      "sources": [
+        "aero_x2_spec_sheet.pdf"
+      ],
+      "latency_ms": 1124
+    },
+    {
+      "id": "M1",
+      "category": "multi_evidence",
+      "question": "How long does it take to charge the Aero X2 to 80%, and which firmware version added the option to stop charging at 80%?",
+      "top_score": 0.744,
+      "retrieval_recall": 1.0,
+      "gated": false,
+      "status": "answered",
+      "status_ok": true,
+      "fact_recall": 1.0,
+      "citation_recall": 1.0,
+      "quotes_verified": "2/2",
+      "answer": "Charging the Aero X2 from empty to 80% takes 2.5 hours, and version 3.4 added the option to cap charging at 80%.",
+      "missing": "",
+      "sources": [
+        "aero_x2_spec_sheet.pdf",
+        "firmware_release_notes.md"
+      ],
+      "latency_ms": 1422
+    },
+    {
+      "id": "M2",
+      "category": "multi_evidence",
+      "question": "If I register my bike within 60 days, how long is the battery covered, and what is the battery's rated capacity?",
+      "top_score": 0.792,
+      "retrieval_recall": 1.0,
+      "gated": false,
+      "status": "partial",
+      "status_ok": false,
+      "fact_recall": 0.5,
+      "citation_recall": 0.5,
+      "quotes_verified": "1/1",
+      "answer": "If you register your bike within 60 days, you receive an extended battery warranty of 3 years [1].",
+      "missing": "The sources do not state the battery's rated capacity (they only mention a rated capacity percentage threshold of 70% and an energy capacity of 540 Wh for the integrated battery in the Aero X2 model).",
+      "sources": [
+        "warranty_and_returns.txt"
+      ],
+      "latency_ms": 1375
+    },
+    {
+      "id": "M3",
+      "category": "multi_evidence",
+      "question": "As an employee leasing an Aero X2 through the bike plan, what would it cost to buy the bike at the end of the lease?",
+      "top_score": 0.722,
+      "retrieval_recall": 1.0,
+      "gated": false,
+      "status": "answered",
+      "status_ok": true,
+      "fact_recall": 1.0,
+      "citation_recall": 1.0,
+      "quotes_verified": "2/2",
+      "answer": "At the end of the 36-month lease, you can buy the bike for 15% of its original retail price [1]. With a recommended retail price of EUR 3,290, the purchase price would be EUR 493.50 [1, 3].",
+      "missing": "",
+      "sources": [
+        "aero_x2_spec_sheet.pdf",
+        "employee_handbook.md"
+      ],
+      "latency_ms": 1275
+    },
+    {
+      "id": "M4",
+      "category": "multi_evidence",
+      "question": "Range Assist says I have 60 km left on a frosty morning below 0 °C. How far could the real range be off, and is a fix coming?",
+      "top_score": 0.684,
+      "retrieval_recall": 1.0,
+      "gated": false,
+      "status": "answered",
+      "status_ok": true,
+      "fact_recall": 1.0,
+      "citation_recall": 1.0,
+      "quotes_verified": "1/1",
+      "answer": "Range Assist estimates can be up to 20% too optimistic in temperatures below 0 °C [1]. A fix is planned for version 3.5 [1].",
+      "missing": "",
+      "sources": [
+        "firmware_release_notes.md"
+      ],
+      "latency_ms": 1198
+    },
+    {
+      "id": "U1",
+      "category": "unanswerable",
+      "question": "Who is the CEO of Velora Cycles?",
+      "top_score": 0.679,
+      "retrieval_recall": null,
+      "gated": false,
+      "status": "unanswerable",
+      "status_ok": true,
+      "fact_recall": null,
+      "citation_recall": null,
+      "quotes_verified": "0/0",
+      "answer": "The documents don't contain information to answer this question.",
+      "missing": "The provided sources do not contain information about who the CEO of Velora Cycles is.",
+      "sources": [],
+      "latency_ms": 1067
+    },
+    {
+      "id": "U2",
+      "category": "unanswerable",
+      "question": "Does the Aero X2 come with a built-in GPS tracker for theft protection?",
+      "top_score": 0.638,
+      "retrieval_recall": null,
+      "gated": false,
+      "status": "unanswerable",
+      "status_ok": true,
+      "fact_recall": null,
+      "citation_recall": null,
+      "quotes_verified": "0/0",
+      "answer": "The documents don't contain information to answer this question.",
+      "missing": "The provided sources do not contain any information about whether the Aero X2 comes with a built-in GPS tracker for theft protection.",
+      "sources": [],
+      "latency_ms": 1003
+    },
+    {
+      "id": "U3",
+      "category": "unanswerable",
+      "question": "What is the capital of Australia?",
+      "top_score": 0.45,
+      "retrieval_recall": null,
+      "gated": true,
+      "status": "unanswerable",
+      "status_ok": true,
+      "fact_recall": null,
+      "citation_recall": null,
+      "quotes_verified": "0/0",
+      "answer": "The documents don't contain information to answer this question.",
+      "missing": "No passage in the documents is relevant to this question.",
+      "sources": [],
+      "latency_ms": 10
+    },
+    {
+      "id": "U4",
+      "category": "unanswerable",
+      "question": "How much does the Aero X2 cost in the United States in dollars?",
+      "top_score": 0.695,
+      "retrieval_recall": null,
+      "gated": false,
+      "status": "unanswerable",
+      "status_ok": true,
+      "fact_recall": null,
+      "citation_recall": null,
+      "quotes_verified": "0/0",
+      "answer": "The documents don't contain information to answer this question.",
+      "missing": "The provided sources do not contain the price of the Aero X2 in the United States or in dollars.",
+      "sources": [],
+      "latency_ms": 1901
+    }
+  ]
+}

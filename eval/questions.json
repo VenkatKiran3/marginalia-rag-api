@@ -1,0 +1,106 @@
+[
+  {
+    "id": "A1",
+    "category": "answerable",
+    "question": "How heavy is the Aero X2?",
+    "expected_status": ["answered"],
+    "expected_sources": ["aero_x2_spec_sheet.pdf"],
+    "expected_facts": ["21.4 kg"]
+  },
+  {
+    "id": "A2",
+    "category": "answerable",
+    "question": "How many vacation days do full-time employees get?",
+    "expected_status": ["answered"],
+    "expected_sources": ["employee_handbook.md"],
+    "expected_facts": ["25"]
+  },
+  {
+    "id": "A3",
+    "category": "answerable",
+    "question": "Can I send my bike back if I've already ridden it 80 km?",
+    "expected_status": ["answered"],
+    "expected_sources": ["warranty_and_returns.txt"],
+    "expected_facts": ["10%", "30 days"]
+  },
+  {
+    "id": "A4",
+    "category": "answerable",
+    "question": "At what charge level does battery-saver mode switch on now?",
+    "expected_status": ["answered"],
+    "expected_sources": ["firmware_release_notes.md"],
+    "expected_facts": ["15%"]
+  },
+  {
+    "id": "A5",
+    "category": "answerable",
+    "question": "Is it safe to clean the bike with a pressure washer?",
+    "expected_status": ["answered"],
+    "expected_sources": ["aero_x2_spec_sheet.pdf"],
+    "expected_facts": ["pressure washer"]
+  },
+  {
+    "id": "M1",
+    "category": "multi_evidence",
+    "question": "How long does it take to charge the Aero X2 to 80%, and which firmware version added the option to stop charging at 80%?",
+    "expected_status": ["answered"],
+    "expected_sources": ["aero_x2_spec_sheet.pdf", "firmware_release_notes.md"],
+    "expected_facts": ["2.5 hours", "3.4"]
+  },
+  {
+    "id": "M2",
+    "category": "multi_evidence",
+    "question": "If I register my bike within 60 days, how long is the battery covered, and what is the battery's rated capacity?",
+    "expected_status": ["answered"],
+    "expected_sources": ["warranty_and_returns.txt", "aero_x2_spec_sheet.pdf"],
+    "expected_facts": ["3 years", "540 Wh"]
+  },
+  {
+    "id": "M3",
+    "category": "multi_evidence",
+    "question": "As an employee leasing an Aero X2 through the bike plan, what would it cost to buy the bike at the end of the lease?",
+    "expected_status": ["answered"],
+    "expected_sources": ["employee_handbook.md", "aero_x2_spec_sheet.pdf"],
+    "expected_facts": ["15%", "3,290"]
+  },
+  {
+    "id": "M4",
+    "category": "multi_evidence",
+    "question": "Range Assist says I have 60 km left on a frosty morning below 0 °C. How far could the real range be off, and is a fix coming?",
+    "expected_status": ["answered"],
+    "expected_sources": ["firmware_release_notes.md"],
+    "expected_facts": ["20%", "3.5"]
+  },
+  {
+    "id": "U1",
+    "category": "unanswerable",
+    "question": "Who is the CEO of Velora Cycles?",
+    "expected_status": ["unanswerable"],
+    "expected_sources": [],
+    "expected_facts": []
+  },
+  {
+    "id": "U2",
+    "category": "unanswerable",
+    "question": "Does the Aero X2 come with a built-in GPS tracker for theft protection?",
+    "expected_status": ["unanswerable"],
+    "expected_sources": [],
+    "expected_facts": []
+  },
+  {
+    "id": "U3",
+    "category": "unanswerable",
+    "question": "What is the capital of Australia?",
+    "expected_status": ["unanswerable"],
+    "expected_sources": [],
+    "expected_facts": []
+  },
+  {
+    "id": "U4",
+    "category": "unanswerable",
+    "question": "How much does the Aero X2 cost in the United States in dollars?",
+    "expected_status": ["unanswerable", "partial"],
+    "expected_sources": [],
+    "expected_facts": []
+  }
+]

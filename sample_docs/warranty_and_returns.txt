@@ -1,0 +1,26 @@
+VELORA CYCLES — WARRANTY AND RETURNS POLICY
+Effective 1 March 2026. Applies to all Velora e-bikes sold in the European Union.
+
+1. Frame warranty
+
+Every Velora frame is covered by a lifetime warranty against manufacturing defects for the original owner. The frame warranty does not transfer when the bike is resold. Damage caused by crashes, improper assembly, or competitive racing is not covered.
+
+2. Battery warranty
+
+Velora batteries are covered for 2 years or 500 full charge cycles, whichever comes first. A battery is considered defective if it holds less than 70% of its rated capacity within the warranty period. Customers who register their bike at velora.example/register within 60 days of purchase receive an extended battery warranty of 3 years; the cycle limit and the 70% capacity threshold stay the same.
+
+3. Motor and electronics warranty
+
+The drive unit, display and controller are covered for 2 years from the date of purchase. Water damage is covered only if the bike was used within its rated IPX5 limits; submerging the drive unit voids this warranty.
+
+4. Returns
+
+You may return a bike within 30 days of delivery for a full refund, provided it has been ridden less than 50 km and is in its original condition. Bikes ridden more than 50 km can still be returned within 30 days, but a 10% restocking fee applies. Return shipping is free within the Netherlands and Belgium; customers in other EU countries pay a flat return shipping fee of EUR 79.
+
+5. Making a claim
+
+To make a warranty claim, email support@velora.example with your order number, the bike's serial number (printed under the bottom bracket), and photos or a short video of the problem. Our service team replies within 2 business days. Approved repairs are carried out at a Velora Service Point or, where none is available within 40 km, by a mobile technician at no extra cost.
+
+6. Consumables
+
+Tyres, brake pads, chains, cassettes and grips are wear parts and are not covered by any warranty.
